@@ -7,8 +7,8 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 ### Author: Mike Pace
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* Any Links you used as reference
+* [Eric Meyers reset.css](http://meyerweb.com/eric/tools/css/reset/)
+* https://www.gitignore.io/api/node,linux,macos,windows,visualstudiocode
 
 ### Reflections and Comments
 * Consider including the answers to your daily journal and submission questions here
