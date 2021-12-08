@@ -1,3 +1,40 @@
 body {
   background-color: hsla(240, 100%, 50%, 0.219);
 }
+
+main {
+
+}
+
+header {
+
+}
+
+h1 {
+background-color: crimson;
+color: rgb(38, 182, 38);
+font-size: 60px;
+margin-bottom: 25px;
+text-shadow: 2px 2px darkmagenta;
+}
+
+nav {
+background-color: fuchsia;
+height: 200px;
+}
+ul li {
+  background-color: darkolivegreen;
+  display: inline;
+  padding: 15px;
+  border-radius: 18px;
+}
+ol li {
+  margin: 15px;
+  display: inline;
+  border-radius: 8px;
+  background-color:floralwhite ;
+}
+footer {
+  background-color: ghostwhite;
+  margin-top: 60 px ;
+}
