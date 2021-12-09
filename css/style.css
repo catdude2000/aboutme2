@@ -28,8 +28,10 @@ main section {
   margin-bottom: 80px;
 }
 main nav {
-  background-color: crimson;
-  color: rgb(49, 49, 133);
+  background-color: rgb(231, 147, 36);
+  color: rgb(173, 43, 43);
+  text-align: left;
+  margin-bottom: 200px;
 }
 footer {
   height: 450px;
