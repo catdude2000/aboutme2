@@ -6,7 +6,6 @@ while(!userName){
 }
 alert (userName + ', I hope you\'re ready for the most important questionnaire of your life!');
 
-
 let answer1 = prompt('Was I born in Japan?').toLowerCase();
 
 if (answer1 === 'yes' || answer1 === 'y' || answer1 === 'ya' || answer1 === 'yeah') {

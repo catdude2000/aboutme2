@@ -1,25 +1,19 @@
 body {
-  background-color: hsla(240, 100%, 50%, 0.219);
-}
-
-main {
-
-}
-
-header {
-
+  background-color: hsla(240, 100%, 50%, 0.644);
+  font-size: larger;
+  color:burlywood;
+  text-align: center;
 }
 
 h1 {
 background-color: crimson;
-color: rgb(38, 182, 38);
+color: rgba(102, 104, 214, 0.774);
 font-size: 60px;
 margin-bottom: 25px;
-text-shadow: 2px 2px darkmagenta;
+text-shadow: 3px 3px rgb(117, 13, 117);
 }
 
-nav {
-background-color: fuchsia;
+header nav {
 height: 200px;
 }
 ul li {
@@ -27,14 +21,19 @@ ul li {
   display: inline;
   padding: 15px;
   border-radius: 18px;
+  margin-bottom: ;
 }
 ol li {
-  margin: 15px;
-  display: inline;
+  font-size: large;
+  color:rgb(173, 43, 43);
+  padding: 10px;
+  text-align: center
+}
+ol  {
   border-radius: 8px;
-  background-color:floralwhite ;
+  background-color:rgb(189, 150, 72) ;
 }
 footer {
-  background-color: ghostwhite;
+  height: 450px;
   margin-top: 60 px ;
 }
