@@ -1,10 +1,10 @@
 'use strict';
 console.log('app.js file is connected');
 let userName;
-while(!userName){
+while (!userName) {
   userName = prompt('Hello there!  You\'ve reached Mike Pace\'s About Me page.  What is your name?');
 }
-alert (userName + ', I hope you\'re ready for the most important questionnaire of your life!');
+alert(userName + ', I hope you\'re ready for the most important questionnaire of your life!');
 
 let answer1 = prompt('Was I born in Japan?').toLowerCase();
 
@@ -58,7 +58,7 @@ let answer5 = prompt('Am I allergic to cats?').toLowerCase();
 
 if (answer5 === 'yes' || answer5 === 'y' || answer5 === 'ya' || answer5 === 'yeah') {
   console.log('Correct');
-  alert('Allergies, also known as Mike\'sbane.');
+  alert('Allergies, also known as Mike\'s-bane.');
 }
 
 if (answer5 === 'no' || answer5 === 'n' || answer5 === 'na' || answer5 === 'nah') {

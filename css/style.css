@@ -1,52 +1,58 @@
 body {
-  background-color: hsla(240, 100%, 50%, 0.644);
-  font-size:x-large;
-  color:burlywood;
-  text-align: center;
+	background-color: hsla(240, 100%, 50%, 0.644);
+	font-size: x-large;
+	color: burlywood;
+	text-align: center;
 }
 
 h1 {
-background-color: crimson;
-color: rgba(102, 104, 214, 0.774);
-font-size: 60px;
-margin-bottom: 25px;
-text-shadow: 3px 3px rgb(117, 13, 117);
+	background-color: crimson;
+	color: rgba(102, 104, 214, 0.774);
+	font-size: 60px;
+	margin-bottom: 25px;
+	text-shadow: 3px 3px rgb(117, 13, 117);
 }
 
 header nav {
-height: 100px;
-margin-top: 50px;
+	height: 100px;
+	margin-top: 50px;
 }
+
 ul li {
-  background-color: darkolivegreen;
-  display: inline;
-  padding: 15px;
-  border-radius: 18px;
-  margin-bottom: ;
+	background-color: darkolivegreen;
+	display: inline;
+	padding: 15px;
+	border-radius: 18px;
 }
+
 main section {
-  margin-bottom: 80px;
+	margin-bottom: 80px;
 }
+
 main nav {
-  background-color: rgb(231, 147, 36);
-  color: rgb(173, 43, 43);
-  text-align: left;
-  margin-bottom: 200px;
+	background-color: rgb(231, 147, 36);
+	color: rgb(173, 43, 43);
+	text-align: left;
+	margin-bottom: 200px;
 }
+
 footer {
-  height: 450px;
-  margin-top: 60 px ;
+	height: 450px;
+	margin-top: 60 px;
 }
+
 h4 {
-  font-size:xx-large;
+	font-size: xx-large;
 }
+
 ol li {
-  font-size: large;
-  color:rgb(173, 43, 43);
-  padding: 10px;
-  text-align: center
+	font-size: large;
+	color: rgb(173, 43, 43);
+	padding: 10px;
+	text-align: center
 }
-ol  {
-  border-radius: 8px;
-  background-color:rgb(189, 150, 72) ;
+
+ol {
+	border-radius: 8px;
+	background-color: rgb(189, 150, 72);
 }
