@@ -1,6 +1,6 @@
 body {
   background-color: hsla(240, 100%, 50%, 0.644);
-  font-size: larger;
+  font-size:x-large;
   color:burlywood;
   text-align: center;
 }
@@ -14,7 +14,8 @@ text-shadow: 3px 3px rgb(117, 13, 117);
 }
 
 header nav {
-height: 200px;
+height: 100px;
+margin-top: 50px;
 }
 ul li {
   background-color: darkolivegreen;
@@ -22,6 +23,20 @@ ul li {
   padding: 15px;
   border-radius: 18px;
   margin-bottom: ;
+}
+main section {
+  margin-bottom: 80px;
+}
+main nav {
+  background-color: crimson;
+  color: rgb(49, 49, 133);
+}
+footer {
+  height: 450px;
+  margin-top: 60 px ;
+}
+h4 {
+  font-size:xx-large;
 }
 ol li {
   font-size: large;
@@ -32,8 +47,4 @@ ol li {
 ol  {
   border-radius: 8px;
   background-color:rgb(189, 150, 72) ;
-}
-footer {
-  height: 450px;
-  margin-top: 60 px ;
 }
