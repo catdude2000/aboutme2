@@ -1,34 +1,52 @@
 'use strict';
 console.log('app.js file is connected');
-// let userName;
-// while (!userName) {
-//   userName = prompt('Hello there!  You\'ve reached Mike Pace\'s About Me page.  What is your name?').trim;
+
+let points = 0;
+
+let userName = prompt('Hello there!  You\'ve reached Mike Pace\'s About Me page.  What is your name?').trim;
+while (!userName) {
+  userName = prompt ('Enter your name, please.')
+}
+alert(userName + ', I hope you\'re ready for the most important questionnaire of your life!');
+
+// function questionOne(){
+//   let answer1 = prompt('Was I born in Japan?').toLowerCase();
+
+//   if (answer1 === 'yes' || answer1 === 'y' || answer1 === 'ya' || answer1 === 'yeah') {
+//     console.log('Wrong');
+//     alert('Wrong!');
+//   }
+
+//   if (answer1 === 'no' || answer1 === 'n' || answer1 === 'na' || answer1 === 'nah') {
+//     console.log('Correct');
+//     alert('How did you know?');
+//     points += 1;
+//   }
 // }
-// alert(userName + ', I hope you\'re ready for the most important questionnaire of your life!');
 
-// let answer1 = prompt('Was I born in Japan?').toLowerCase();
+// questionOne();
 
-// if (answer1 === 'yes' || answer1 === 'y' || answer1 === 'ya' || answer1 === 'yeah') {
-//   console.log('Wrong');
-//   alert('Wrong!');
+// console.log('points', points);
+
+// function questionTwo(){
+//   let answer2 = prompt('Am I in the witness protection program?').toLowerCase();
+
+//   if (answer2 === 'yes' || answer2 === 'y' || answer2 === 'ya' || answer2 === 'yeah') {
+//     console.log('Wrong');
+//     alert('nu-uh!!');
+//   }
+
+//   if (answer2 === 'no' || answer2 === 'n' || answer2 === 'na' || answer2 === 'nah') {
+//     console.log('Correct');
+//     alert('Stop reading my mind!');
+//     points += 1;
+//     console.log(userName + ' has' + points + ' points')
+//   }
 // }
 
-// if (answer1 === 'no' || answer1 === 'n' || answer1 === 'na' || answer1 === 'nah') {
-//   console.log('Correct');
-//   alert('How did you know?');
-// }
+// questionTwo();
 
-// let answer2 = prompt('Am I in the witness protection program?').toLowerCase();
-
-// if (answer2 === 'yes' || answer2 === 'y' || answer2 === 'ya' || answer2 === 'yeah') {
-//   console.log('Wrong');
-//   alert('nu-uh!!');
-// }
-
-// if (answer2 === 'no' || answer2 === 'n' || answer2 === 'na' || answer2 === 'nah') {
-//   console.log('Correct');
-//   alert('Stop reading my mind!');
-// }
+// console.log('points', points);
 
 // let answer3 = prompt('Is my net handle Catdude?').toLowerCase();
 
@@ -109,25 +127,25 @@ console.log('app.js file is connected');
 
 // questionSix();
 
-function questionSev(){
-  let answer7 = prompt('Can you name one of my brothers?');
-  console.log('user input', answer7);
+// function questionSev(){
+//   let answer7 = prompt('Can you name one of my brothers?');
+//   console.log('user input', answer7);
 
-  let tries2 = 0;
-  let answers ='David' || 'Tom' || 'Chris';
-  while(answer7 !== answers && tries2 < 5) {
-    tries2 = tries2 + 1;
-    answer7 = prompt('Sorry but no, try again.');
-  }
-  while(answer7 === answers){
-    alert('You are correct!');
-    break;
-  }
-  while (tries2 === 5 || answer7 === answers) {
-    alert('Their names are David, Tom and Chris');
-    break;
-  }
-  console.log('tries', tries2);
-}
+//   let tries2 = 0;
+//   let answers ='David' || 'Tom' || 'Chris';
+//   while(answer7 !== answers && tries2 < 5) {
+//     tries2 = tries2 + 1;
+//     answer7 = prompt('Sorry but no, try again.');
+//   }
+//   while(answer7 === answers){
+//     alert('You are correct!');
+//     break;
+//   }
+//   while (tries2 === 5 || answer7 === answers) {
+//     alert('Their names are David, Tom and Chris');
+//     break;
+//   }
+//   console.log('tries', tries2);
+// }
 
-questionSev();
+// questionSev();
