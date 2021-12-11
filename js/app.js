@@ -21,7 +21,7 @@ function questionOne(){
     console.log('Correct');
     alert('How did you know?');
     points += 1;
-    console.log(userName + ' has' + points + ' points');
+    console.log(userName + ' has ' + points + ' points');
   }
 }
 
@@ -41,7 +41,7 @@ function questionTwo(){
     console.log('Correct');
     alert('Stop reading my mind!');
     points += 1;
-    console.log(userName + ' has' + points + ' points');
+    console.log(userName + ' has ' + points + ' points');
   }
 }
 
@@ -57,7 +57,7 @@ function questionThree(){
     console.log('Correct');
     alert('Have you been stalking me?');
     points += 1;
-    console.log(userName + ' has' + points + ' points');
+    console.log(userName + ' has ' + points + ' points');
   }
 
   if (answer3 === 'no' || answer3 === 'n' || answer3 === 'na' || answer3 === 'nah') {
@@ -81,6 +81,8 @@ function questionFour(){
   if (answer4 === 'no' || answer4 === 'n' || answer4 === 'na' || answer4 === 'nah') {
     console.log('Correct');
     alert('Way to rub it in...');
+    points += 1;
+    console.log(userName + ' has ' + points + ' points')
   }
 }
 
@@ -93,12 +95,15 @@ function questionFive(){
 
   if (answer5 === 'yes' || answer5 === 'y' || answer5 === 'ya' || answer5 === 'yeah') {
     console.log('Correct');
+    points += 1;
     alert('Allergies, also known as Mike\'s-bane.');
+    console.log(userName + ' has ' + points + ' points');
   }
 
   if (answer5 === 'no' || answer5 === 'n' || answer5 === 'na' || answer5 === 'nah') {
     console.log('Wrong');
     alert('I wish you were right.');
+
   }
 }
 
@@ -135,11 +140,14 @@ function questionSix() {
   }
   while (tries === 3) {
     alert ('I\'m 31');
+    console.log(userName + ' has ' + points + ' points')
     break;
   }
   while (answer6 === '31') {
     console.log(answer6);
     alert (answer6 + ' and proud of it!');
+    points += 1;
+    console.log(userName + ' has' + points + ' points')
     break;
   }
   console.log('tries', tries);
@@ -161,10 +169,13 @@ function questionSev(){
   }
   while(answer7 === answers){
     alert('You are correct!');
+    points += 1;
+    console.log(userName + ' has' + points + ' points')
     break;
   }
   while (tries2 === 5 || answer7 === answers) {
     alert('Their names are David, Tom and Chris');
+    console.log(userName + ' has ' + points + ' points')
     break;
   }
   console.log('tries', tries2);
@@ -174,4 +185,4 @@ questionSev();
 
 console.log('points', points);
 
-alert(userName + ', you got ' + points + ' out of 7!' );
+alert(userName + ', you got ' + points + ' out of 7!');
