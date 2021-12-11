@@ -3,9 +3,9 @@ console.log('app.js file is connected');
 
 let points = 0;
 
-let userName = prompt('Hello there!  You\'ve reached Mike Pace\'s About Me page.  What is your name?').trim;
+let userName = prompt('Hello there!  You\'ve reached Mike Pace\'s About Me page.  What is your name?');
 while (!userName) {
-  userName = prompt ('Enter your name, please.')
+  userName = prompt ('Enter your name, please.');
 }
 alert(userName + ', I hope you\'re ready for the most important questionnaire of your life!');
 
