@@ -7,6 +7,7 @@ let userName = prompt('Hello there!  You\'ve reached Mike Pace\'s About Me page.
 while (!userName) {
   userName = prompt ('Enter your name, please.');
 }
+
 alert(userName + ', I hope you\'re ready for the most important questionnaire of your life!');
 
 function questionOne(){
@@ -82,7 +83,7 @@ function questionFour(){
     console.log('Correct');
     alert('Way to rub it in...');
     points += 1;
-    console.log(userName + ' has ' + points + ' points')
+    console.log(userName + ' has ' + points + ' points');
   }
 }
 
@@ -140,14 +141,14 @@ function questionSix() {
   }
   while (tries === 3) {
     alert ('I\'m 31');
-    console.log(userName + ' has ' + points + ' points')
+    console.log(userName + ' has ' + points + ' points');
     break;
   }
   while (answer6 === '31') {
     console.log(answer6);
     alert (answer6 + ' and proud of it!');
     points += 1;
-    console.log(userName + ' has' + points + ' points')
+    console.log(userName + ' has ' + points + ' points');
     break;
   }
   console.log('tries', tries);
@@ -170,12 +171,11 @@ function questionSev(){
   while(answer7 === answers){
     alert('You are correct!');
     points += 1;
-    console.log(userName + ' has' + points + ' points')
     break;
   }
   while (tries2 === 5 || answer7 === answers) {
     alert('Their names are David, Tom and Chris');
-    console.log(userName + ' has ' + points + ' points')
+    console.log(userName + ' has ' + points + ' points');
     break;
   }
   console.log('tries', tries2);
