@@ -3,11 +3,11 @@ console.log('app.js file is connected');
 
 let points = 0;
 
-// let userName = prompt('Hello there!  You\'ve reached Mike Pace\'s About Me page.  What is your name?');
-// while (!userName) {
-//   userName = prompt ('Enter your name, please.');
-// }
-// alert(userName + ', I hope you\'re ready for the most important questionnaire of your life!');
+let userName = prompt('Hello there!  You\'ve reached Mike Pace\'s About Me page.  What is your name?');
+while (!userName) {
+  userName = prompt ('Enter your name, please.');
+}
+alert(userName + ', I hope you\'re ready for the most important questionnaire of your life!');
 
 function questionOne(){
   let answer1 = prompt('Was I born in Japan?').toLowerCase();
@@ -66,6 +66,8 @@ function questionThree(){
   }
 }
 
+console.log('points', points);
+
 questionThree();
 
 function questionFour(){
@@ -84,6 +86,8 @@ function questionFour(){
 
 questionFour();
 
+console.log('points', points);
+
 function questionFive(){
   let answer5 = prompt('Am I allergic to cats?').toLowerCase();
 
@@ -100,7 +104,7 @@ function questionFive(){
 
 questionFive();
 
-alert('Congratulations ' + userName + ', you might know some stuff, maybe.');
+console.log('points', points);
 
 function questionSix() {
   let answer6 = prompt ('How old am I?');
@@ -143,6 +147,8 @@ function questionSix() {
 
 questionSix();
 
+console.log('points', points);
+
 function questionSev(){
   let answer7 = prompt('Can you name one of my brothers?');
   console.log('user input', answer7);
@@ -165,3 +171,7 @@ function questionSev(){
 }
 
 questionSev();
+
+console.log('points', points);
+
+alert(userName + ', you got ' + points + ' out of 7!' );
