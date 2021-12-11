@@ -68,49 +68,49 @@ console.log('app.js file is connected');
 
 // alert('Congratulations ' + userName + ', you might know some stuff, maybe.');
 
-function questionSix() {
-  let answer6 = prompt ('How old am I?');
+// function questionSix() {
+//   let answer6 = prompt ('How old am I?');
 
-  let tries = 0;
+//   let tries = 0;
 
-  while (answer6 < '31' && tries < 3) {
-    console.log(answer6);
-    tries = tries + 1;
-    answer6 = prompt ('Try a little higher.');
-  }
+//   while (answer6 < '31' && tries < 3) {
+//     console.log(answer6);
+//     tries = tries + 1;
+//     answer6 = prompt ('Try a little higher.');
+//   }
 
-  while (answer6 > '31' && tries < 3) {
-    console.log(answer6);
-    tries = tries + 1;
-    answer6 = prompt ('Try a little lower');
-  }
-  while (answer6 < '31' && tries < 3) {
-    console.log(answer6);
-    tries = tries + 1;
-    answer6 = prompt ('Try a little higher.');
-  }
+//   while (answer6 > '31' && tries < 3) {
+//     console.log(answer6);
+//     tries = tries + 1;
+//     answer6 = prompt ('Try a little lower');
+//   }
+//   while (answer6 < '31' && tries < 3) {
+//     console.log(answer6);
+//     tries = tries + 1;
+//     answer6 = prompt ('Try a little higher.');
+//   }
 
-  while (answer6 > '31' && tries < 3) {
-    console.log(answer6);
-    tries = tries + 1;
-    answer6 = prompt ('Try a little lower');
-  }
-  while (tries === 3) {
-    alert ('I\'m 31');
-    break;
-  }
-  while (answer6 === '31') {
-    console.log(answer6);
-    alert (answer6 + ' and proud of it!');
-    break;
-  }
-  console.log('tries', tries);
-}
+//   while (answer6 > '31' && tries < 3) {
+//     console.log(answer6);
+//     tries = tries + 1;
+//     answer6 = prompt ('Try a little lower');
+//   }
+//   while (tries === 3) {
+//     alert ('I\'m 31');
+//     break;
+//   }
+//   while (answer6 === '31') {
+//     console.log(answer6);
+//     alert (answer6 + ' and proud of it!');
+//     break;
+//   }
+//   console.log('tries', tries);
+// }
 
-questionSix();
+// questionSix();
 
 function questionSev(){
-  let answer7 = prompt('What are my brothers names?');
+  let answer7 = prompt('Can you name one of my brothers?');
   console.log('user input', answer7);
 
   let tries2 = 0;
@@ -120,6 +120,14 @@ function questionSev(){
     answer7 = prompt('Sorry but no, try again.');
   }
   while(answer7 === answers){
-    alert('You are correct!')
+    alert('You are correct!');
+    break;
   }
+  while (tries2 === 5 || answer7 === answers) {
+    alert('Their names are David, Tom and Chris');
+    break;
+  }
+  console.log('tries', tries2);
 }
+
+questionSev();
