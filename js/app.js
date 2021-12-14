@@ -139,7 +139,7 @@ function questionSix() {
     tries = tries + 1;
     answer6 = prompt ('Try a little lower');
   }
-  while (tries === 3 && answer6 != '31') {
+  while (tries === 3) {
     alert ('I\'m 31');
     console.log(userName + ' has ' + points + ' points');
     break;
@@ -159,14 +159,14 @@ questionSix();
 console.log('points', points);
 
 function questionSev(){
-  let answer7 = prompt('Can you name one of my brothers?').toLowerCase();
+  let answer7 = prompt('Can you name one of my brothers?');
   console.log('user input', answer7);
 
   let tries2 = 0;
-  let answers ='david' || 'tom' || 'chris';
+  let answers ='David' || 'Tom' || 'Chris';
   while(answer7 !== answers && tries2 < 5) {
     tries2 = tries2 + 1;
-    answer7 = prompt('Sorry but no, try again.').toLowerCase();
+    answer7 = prompt('Sorry but no, try again.');
   }
   while(answer7 === answers){
     alert('You are correct!');
