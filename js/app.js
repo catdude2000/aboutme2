@@ -159,14 +159,14 @@ questionSix();
 console.log('points', points);
 
 function questionSev(){
-  let answer7 = prompt('Can you name one of my brothers?');
+  let answer7 = prompt('Can you name one of my brothers?').toLowerCase();
   console.log('user input', answer7);
 
   let tries2 = 0;
-  let answers ='David' || 'Tom' || 'Chris';
+  let answers ='david' || 'tom' || 'chris';
   while(answer7 !== answers && tries2 < 5) {
     tries2 = tries2 + 1;
-    answer7 = prompt('Sorry but no, try again.');
+    answer7 = prompt('Sorry but no, try again.').toLowerCase();
   }
   while(answer7 === answers){
     alert('You are correct!');
