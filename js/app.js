@@ -139,7 +139,7 @@ function questionSix() {
     tries = tries + 1;
     answer6 = prompt ('Try a little lower');
   }
-  while (tries === 3) {
+  while (tries === 3 && answer6 != '31') {
     alert ('I\'m 31');
     console.log(userName + ' has ' + points + ' points');
     break;
