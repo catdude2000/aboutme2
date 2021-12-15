@@ -158,35 +158,10 @@ questionSix();
 
 console.log('points', points);
 
-// function questionSev(){
-//   let answer7 = prompt('Can you name one of my brothers?');
-//   console.log('user input', answer7);
-
-//   let tries2 = 0;
-//   let answers ='David' || 'Tom' || 'Chris';
-//   while(answer7 !== answers && tries2 < 5) {
-//     tries2 = tries2 + 1;
-//     answer7 = prompt('Sorry but no, try again.');
-//   }
-//   while(answer7 === answers){
-//     alert('You are correct!');
-//     points += 1;
-//     break;
-//   }
-//   while (tries2 === 5 || answer7 === answers) {
-//     alert('Their names are David, Tom and Chris');
-//     console.log(userName + ' has ' + points + ' points');
-//     break;
-//   }
-//   console.log('tries', tries2);
-// }
-
 function questionSev(){
   let tries2 = 0;
   let answers = ['david', 'tom', 'chris'];
   console.log(answers);
-  // let answer7 = prompt('Can you name one of my brothers?').toLowerCase().trim();
-  // console.log('user input', answer7);
   while (tries2 <= 5) {
     let answer7 = prompt('Can you name one of my brothers?').toLowerCase().trim();
     for(let i = 0; i < answers.length; i++){
@@ -195,31 +170,15 @@ function questionSev(){
       if(answer7 === answers[i]) {
         alert('That\'s correct!');
         points += 1;
-        // alert('Their names are David, Tom, and Chris');
         tries2 = 5;
         break;
-      } //closes our if statement
-      //closes our four loop
-      // if (answer7 !== answers[i]) {
-      //   answer7 = prompt('Sorry, try again.').toLowerCase().trim();
-      //   console.log(answer7);
-      //   tries2 = tries2 + 1;
-      // }
+      }
     }
     if(tries2 !== 5){
       alert('sorry, try again');
     }
-    // break;
-    // if(tries2 === 5) {
-    //   alert('Their names are David, Tom, and Chris');
-    //   break;
-    // }
     tries2 = tries2 + 1;
   }
-  // if(tries2 === 5) {
-  // alert('Their names are David, Tom, and Chris');
-  // break;
-  // }
 }
 
 questionSev();
