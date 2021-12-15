@@ -139,7 +139,7 @@ function questionSix() {
     tries = tries + 1;
     answer6 = prompt ('Try a little lower');
   }
-  while (tries === 3 && answer6 === '31') {
+  while (tries === 3 && answer6 !== '31') {
     alert ('I\'m 31');
     console.log(userName + ' has ' + points + ' points');
     break;
@@ -185,31 +185,45 @@ function questionSev(){
   let tries2 = 0;
   let answers = ['david', 'tom', 'chris'];
   console.log(answers);
-  let answer7 = prompt('Can you name one of my brothers?').toLowerCase();
-  console.log('user input', answer7);
-  for(let i = 0; i < answers.length; i++)
-  {
-    while (tries2 < 5) {
+  // let answer7 = prompt('Can you name one of my brothers?').toLowerCase().trim();
+  // console.log('user input', answer7);
+  while (tries2 <= 5) {
+    let answer7 = prompt('Can you name one of my brothers?').toLowerCase().trim();
+    for(let i = 0; i < answers.length; i++){
+      console.log(answer7);
+      console.log(answers[i]);
       if(answer7 === answers[i]) {
         alert('That\'s correct!');
         points += 1;
-        alert('Their names are David, Tom, and Chris');
-        tries2 = tries2 + 6;
+        // alert('Their names are David, Tom, and Chris');
+        tries2 = 5;
         break;
-      }
-      if (answer7 !== answers[i]) {
-        answer7 = prompt('Sorry, try again.');
-        tries2 = tries2 + 1;
-      }
-      if(tries2 === 5) {
-        alert('Their names are David, Tom, and Chris');
-        break;
-      }
+      } //closes our if statement
+      //closes our four loop
+      // if (answer7 !== answers[i]) {
+      //   answer7 = prompt('Sorry, try again.').toLowerCase().trim();
+      //   console.log(answer7);
+      //   tries2 = tries2 + 1;
+      // }
     }
+    if(tries2 !== 5){
+      alert('sorry, try again');
+    }
+    // break;
+    // if(tries2 === 5) {
+    //   alert('Their names are David, Tom, and Chris');
+    //   break;
+    // }
+    tries2 = tries2 + 1;
   }
+  // if(tries2 === 5) {
+  // alert('Their names are David, Tom, and Chris');
+  // break;
+  // }
 }
-questionSev();
 
+questionSev();
+alert('Their names are David, Tom, and Chris');
 console.log('points', points);
 
 alert(userName + ', you got ' + points + ' out of 7!');
