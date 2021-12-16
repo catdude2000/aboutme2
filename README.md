@@ -6,7 +6,8 @@ This is an evolving site, built for a project in DeltaV's code 201 class.  Curre
 
 Next I added two more questions, with a limited number of tries for each.  An customized alert is given for each response.  Also each of the seven question is now worth a point.  All points will be totalled at the end and the point total will be displayed to the user.
 
-### Author: Mike Pace
+### Author: Mike Pace/ navigator
+            Susan Hargus/ driver
 
 ### Links and Resources
 
